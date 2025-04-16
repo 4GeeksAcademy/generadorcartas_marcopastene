@@ -1,5 +1,40 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
-
-body{
-    background: white;
-}
+body {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .card {
+    width:350px;
+    height: 500px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .palo-alto
+   {
+    font-size: 120px;
+    width: 100%;
+  }
+  .palo-bajo {
+    font-size: 120px;
+    width: 100%;
+    text-align: right;
+  }
+    
+  .number {
+    font-size: 180px;
+    
+  }
+  
